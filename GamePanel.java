@@ -115,8 +115,8 @@ public class GamePanel extends JPanel implements ActionListener {
     }
     public void checkPoint(){
         if((x[0] == appleX) && (y[0] == appleY)){
-            bodyParts = bodyParts+20;
-            points = points+20;
+            bodyParts = bodyParts+1;
+            points = points+1;
             newApple();
         }
     }
